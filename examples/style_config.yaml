@@ -1,0 +1,61 @@
+# DocBridge Style Configuration
+# Customize the appearance of your converted documents
+
+# Font settings
+font_name: "Arial"
+font_name_mono: "Courier New"
+font_name_cjk: "SimSun"
+
+# Font sizes (in points)
+font_size_normal: 11
+font_size_heading1: 20
+font_size_heading2: 16
+font_size_heading3: 14
+font_size_heading4: 12
+font_size_code: 10
+font_size_small: 9
+
+# Colors (RGB values)
+color_text: [0, 0, 0]
+color_heading: [0, 0, 0]
+color_code_bg: [245, 245, 245]
+color_code_border: [220, 220, 220]
+color_link: [0, 0, 255]
+color_quote_border: [200, 200, 200]
+color_quote_bg: [250, 250, 250]
+
+# Spacing (in points)
+space_paragraph: 12
+space_heading1_before: 24
+space_heading1_after: 12
+space_heading2_before: 20
+space_heading2_after: 10
+space_code_before: 6
+space_code_after: 6
+space_table_before: 12
+space_table_after: 12
+
+# Page settings (in points)
+page_width: 612  # Letter size
+page_height: 792
+margin_left: 72
+margin_right: 72
+margin_top: 72
+margin_bottom: 72
+
+# Code block settings
+code_show_line_numbers: true
+code_line_number_color: [150, 150, 150]
+code_highlight_theme: "default"
+
+# Table settings
+table_border_color: [200, 200, 200]
+table_header_bg: [240, 240, 240]
+table_cell_padding: 6
+
+# AI Dialog settings
+ai_user_label: "You"
+ai_assistant_label: "Assistant"
+ai_user_color: [0, 100, 200]
+ai_assistant_color: [0, 150, 100]
+ai_dialog_indent: 36
